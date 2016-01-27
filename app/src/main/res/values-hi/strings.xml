@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">कलर मेष</string>
+    <string name="gmedesc">कलर मेष एक रंग पहचानने का खेल हैं। यह खेल खेलने से खिलाङी का ध्यान, एकाग्रता एवं स्थिरता को बड़ने में मदद मिलती हैं।</string>
+    <string name="devdesc">द्वारा निर्मित : टीम ATOM.\n(<b>वेल्लोर प्रौद्योगिकी संस्थान, वेल्लोर।</b>)</string>
+    <string name="tout">ओहॊ!!! समय समप्त हो गया…\n\n\nआपका स्कोर : </string>
+    <string name="high_score_beat">आपको लख-लख बधाईयां!!! आपने हाई स्कोर तोड़ दिया…\n\n\nनया हाई स्कोर : </string>
+    <string name="try_again">ओहॊ!!! लगता है हमें पुन: प्रयास करना चहिये…\n\n\nआपका स्कोर : </string>
+    <string name="high_score_eql">अरे वाह!!! आप हाई स्कोर के बराबर पहुँच गए…\n\n\nआपका स्कोर : </string>
+    <string name="tout_high">ओहॊ!!! समय समप्त हो गया…\n\nलेकिन फिर भी आपने हाई स्कोर तोड़ दिया…\n\n\nनया हाई स्कोर : </string>
+    <string name="h_score">हाई स्कोर</string>
+    <string name="score">स्कोर</string>
+    <string name="about">विषय में</string>
+    <string name="abt_game">खेल के विषय में</string>
+    <string name="abt_dev">निर्माता के विषय में</string>
+    <string name="Mplay" tools:ignore="ReferenceType">प्रारंभ</string>
+    <string name="Mabout" tools:ignore="ReferenceType">विषय</string>
+    <string name="Mexit" tools:ignore="ReferenceType">बाहर</string>
+    <string-array name="color_name">
+        <item>नीला</item>
+        <item>हरा</item>
+        <item>ग्रे</item>
+        <item>लाल</item>
+        <item>पीला</item>
+    </string-array>
+</resources>

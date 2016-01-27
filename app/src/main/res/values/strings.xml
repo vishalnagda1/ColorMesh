@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Color Mesh</string>
+    <string name="gmedesc">Color Mesh Is A Color Identifier Game. It Also Helps To Increase Concentration, Focus And Attention Of The Player.</string>
+    <string name="devdesc">Developed By : Team ATOM.\n(<b>Vellore Institute Of Technology, Vellore</b>)</string>
+    <string name="tout">Oops!!! You Run Out Of Time…\n\n\nYour Score : </string>
+    <string name="high_score_beat">Hurray!!! You Beat The High Score…\n\n\nNew High Score : </string>
+    <string name="try_again">Oops!!! We Should Try Again…\n\n\nYour Score : </string>
+    <string name="high_score_eql">Awesome!!! You Reach The High Score…\n\n\nYour Score : </string>
+    <string name="tout_high">Oops!!! You Run Out Of Time…\n\nBut We Beat The High Score\n\n\nYour Score : </string>
+    <string name="h_score">High Score</string>
+    <string name="score">Score</string>
+    <string name="about">ABOUT</string>
+    <string name="abt_game">About Game</string>
+    <string name="abt_dev">About Developer</string>
+    <string name="Mplay" tools:ignore="ReferenceType">PLAY</string>
+    <string name="Mabout" tools:ignore="ReferenceType">ABOUT</string>
+    <string name="Mexit" tools:ignore="ReferenceType">EXIT</string>
+    <string-array name="color_name">
+        <item>BLUE</item>
+        <item>GREEN</item>
+        <item>GRAY</item>
+        <item>RED</item>
+        <item>YELLOW</item>
+    </string-array>
+</resources>

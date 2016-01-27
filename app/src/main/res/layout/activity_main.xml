@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Heading"
+        android:textSize="60sp"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        tools:ignore="UnusedAttribute"
+        android:layout_marginTop="38dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="@dimen/bwidth"
+        android:layout_height="@dimen/bheight"
+        android:text="@string/Mplay"
+        android:id="@+id/play"
+        android:background="@drawable/button"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:layout_above="@+id/about"
+        android:layout_alignLeft="@+id/about"
+        android:layout_alignStart="@+id/about"
+        android:layout_marginBottom="14dp" />
+
+    <Button
+        android:layout_width="@dimen/bwidth"
+        android:layout_height="@dimen/bheight"
+        android:text="@string/Mabout"
+        android:background="@drawable/button"
+        android:id="@+id/about"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="@dimen/bwidth"
+        android:layout_height="@dimen/bheight"
+        android:text="@string/Mexit"
+        android:background="@drawable/button"
+        android:id="@+id/exit"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/about"
+        android:layout_alignLeft="@+id/about"
+        android:layout_alignStart="@+id/about" />
+
+</RelativeLayout>
